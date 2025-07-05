@@ -12,7 +12,7 @@ Class App{
     public function run(){
         echo "Application is Running...!";
     }
-    public function add(string $path){
+    public function get(string $path){
         $this->router->add('GET',$path);
 
     }
